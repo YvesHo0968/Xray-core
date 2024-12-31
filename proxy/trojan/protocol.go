@@ -10,6 +10,7 @@ import (
 )
 
 var (
+	// crlf = []byte{'\r', '\n'}
 	crlf = []byte{'\r', '\n'}
 
 	addrParser = protocol.NewAddressParser(
